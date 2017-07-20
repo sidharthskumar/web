@@ -1,0 +1,132 @@
+body{
+    
+    background-color: grey;
+    margin: 0;
+
+
+}
+.link-title{
+    text-decoration: none;
+    font-size: 24px;
+    color: brown;
+}
+
+
+
+
+.container {
+    width: 780px;
+    margin: 0 auto;
+    background-color: white;
+    }
+
+.header{
+    
+    padding: 45px 0 20px 40px;
+    border: 3px solid black;
+}
+
+.menu{
+    
+    background-color: cadetblue;
+    padding: 6px 0 6px 40px;
+  
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Arial Narrow", "Myriad Pro";
+    font-weight: 600
+    
+}
+.menu a:hover{
+    color: black;
+    
+}
+aside{
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+    
+}
+h1{
+    
+    margin: 0px;
+    color: fuchsia;
+    font-size: 24px;
+    font-weight: normal;
+}
+h2{
+    color:blue;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+      
+}
+
+.main{
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 30px;
+    color: brown;
+    font-family: "georgia";
+    font-size: 13px;
+    line-height: 18px;
+    text-emphasis: justify; 
+    
+}
+
+.main a:hover{
+    
+    color: aqua;
+}
+#himg img {
+    
+    width: 100%
+}
+
+
+
+footer {
+    
+    padding: 6px 40px 6px 40px;
+    background-colo
+    width : 30%;r: darkgray;
+    font-family: "lucida sans unicode";
+    text-decoration: right;
+}
+
+footer a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.sep{
+    color: white;
+    font-size: 22px;
+    
+    
+    
+}
+/*abbbooouutttt ppppaaaaaaagggggggeeeeeee*/
+#ab-p #himg img {
+    
+    width: 70%;
+    float: left;
+        margin-bottom: 9px;
+    margin-right: 10px;
+} 
+#ab-p #pro-info{
+    
+    float: right;
+    width : 20%;
+    margin: 5px;
+    padding: 6px 10px 6px 10px;
+   
+    
+}
+#ab-p .descrip{
+    
+    clear: both;
+
+}
