@@ -6,7 +6,7 @@
     <script src="js/scripts.js"></script>
           
     </head>
-<body>
+<body id="contact">
     <div class="container">
     <header class="header">
         
@@ -29,14 +29,41 @@
         </aside>
         <article class="main">
             
+            <h1 style="text-align: center" >contact</h1>
+            <br>
+            <div id="form">
             
+            <form method="post"  action="process.php">
+               <p> <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="your name" required>
+                </p>
+                <p>
+                <label for="name">email:</label>
+                <input type="text" name="email" placeholder="your email" required>
+                </p>
+                <p>
+                <label for="name">Subject:</label>
+                <input type="text" name="subject" required >
+                </p>
+              <p>
+                 <label for="name">message</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="enter some text here" required></textarea></p>
+                <p>
+                
+                <input type="submit" name="submit" value="send message" id="submit" required>
+                </p>
+                
+                </form>
+            
+            </div>
             
               </article>
     
-    <footer>
+   <footer>
         
-        &copy; 2030 minimal website &nbsp; &nbsp; design by isid <a href="http://google.com">go here</a>      
+        &copy; 2030 minimal website &nbsp; <span class="sep">|</span> design by isid <a href="http://google.com">go here</a>      
         
         </footer>
+    
     
     
